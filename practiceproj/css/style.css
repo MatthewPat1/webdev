@@ -17,7 +17,7 @@ button{
     opacity: 0.75;
 }
 /* Clicked */
-sub:active{
+#sub:focus{
     background-color: rgb(78, 72, 72);
     color: black;
 }
