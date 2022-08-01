@@ -56,10 +56,8 @@ button{
     border: none;
     cursor: pointer;
     font-size: 15px;
-    transition: background-color 0.15s,
+    transition: background-color 0.15s, box-shadow 0.15s,
     box-shadow 0.15s;
-    
-
 }
 #tweet:hover{
     background-color: #176da3;
