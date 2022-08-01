@@ -14,14 +14,12 @@ button{
 }
 
 #sub:hover{
-    background-color: rgb(255, 7, 7);
-    color: white;
-    opacity: 0.5;
+    opacity: 0.75;
 }
+/* Clicked */
 #sub:focus{
     background-color: rgb(78, 72, 72);
     color: black;
-
 }
 
 
@@ -34,10 +32,14 @@ button{
     border-color: blueviolet;
     border-width: thin;
     cursor: pointer;
+    transition: background-color 0.15s,
+        color 0.15s;
 }
 #join:hover{
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(63, 72, 156);
+    color: white;
 }
+
 #join:focus{
     background-color: gray;
     outline-color: blue;
@@ -53,7 +55,27 @@ button{
     border-radius: 18px;
     border: none;
     cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.15s, box-shadow 0.15s,
+    box-shadow 0.15s;
 }
 #tweet:hover{
     background-color: #176da3;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+#save{
+    background-color: white;
+    color: #176da3;
+    font-weight: bold;
+    padding: 10px 20px;
+    /* width: 80px; */
+    border-radius: 29px;
+    border-width: 1px;
+    border-color: #176da3;
+}
+
+#save:hover{
+    border-width: 2px;
+    background-color: gray;
 }
