@@ -63,3 +63,19 @@ button{
     background-color: #176da3;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
 }
+
+#save{
+    background-color: white;
+    color: #176da3;
+    font-weight: bold;
+    padding: 10px 20px;
+    /* width: 80px; */
+    border-radius: 29px;
+    border-width: 1px;
+    border-color: #176da3;
+}
+
+#save:hover{
+    border-width: 2px;
+    background-color: gray;
+}
